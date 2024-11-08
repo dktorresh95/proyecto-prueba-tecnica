@@ -1,7 +1,8 @@
 {
-  "name": "proyecto-prueba",
+  "name": "prueba-tecnica",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://dktorresh95.github.io/prueba-tecnica-react/",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -12,7 +13,10 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@react-oauth/google": "^0.12.1",
     "antd": "^5.21.6",
+    "axios": "^1.7.7",
+    "bootstrap": "^5.3.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-window": "^1.8.10"
